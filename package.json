@@ -1,0 +1,26 @@
+{
+  "name": "team-profile",
+  "version": "1.0.0",
+  "description": "This application will allow the user to create a team profile for his/her team. Engineers, Interns, Employees, and Management.",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-sanchez/Team-Profile.git"
+  },
+  "keywords": [
+    "Team-Profile-Generator"
+  ],
+  "author": "Jonathan C. Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-sanchez/Team-Profile/issues"
+  },
+  "homepage": "https://github.com/J-sanchez/Team-Profile#readme"
+}
