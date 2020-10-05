@@ -14,7 +14,7 @@ let teamArray = [];
 let teamstr = ``;
 
 
-async function main() {
+async function LetuserUSE() {
      try {
           await prompt()
           //input length 
@@ -121,3 +121,5 @@ async function prompt() {
     } while (responseDone.finish === "Yes");
 }
 
+//call the entire function to run
+LetuserUSE(); 
