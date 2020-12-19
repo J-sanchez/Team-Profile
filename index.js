@@ -1,10 +1,11 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const jest = require("jest");
 const Employee = require("./assets/utils/employees/employee");
 const Engineer = require("./assets/utils/employees/Engineer");
 const Intern = require("./assets/utils/employees/intern");
 const Manager = require("./assets/utils/employees/Manager");
-const HTML = require("./assets/utils/generate.html");
+const generate = require("./assets/utils/generate.html");
 
 //Write out the file
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -117,9 +118,8 @@ async function prompt() {
               ]
          }, ]);
 
-
     } while (responseDone.finish === "Yes");
 }
 
 //call the entire function to run
-LetuserUSE(); 
+LetuserUSE()
